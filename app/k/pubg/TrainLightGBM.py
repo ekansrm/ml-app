@@ -1,8 +1,8 @@
 import gc
 import pandas as pd
 import numpy as np
-from app.kaggle.pubg.data import FILE_DATA_SUBMISSION, FILE_DATA_TEST, FILE_DATA_TRAIN
-from app.kaggle.pubg.BaseLineLightGBM import feature_engineering, reduce_mem_usage, run_lgb
+from app.k.pubg.data import FILE_DATA_SUBMISSION, FILE_DATA_TEST, FILE_DATA_TRAIN
+from app.k.pubg.BaseLineLightGBM import feature_engineering, reduce_mem_usage, run_lgb
 
 
 def train():

@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 import lightgbm as lgb
 from sklearn import preprocessing
-from app.kaggle.pubg.data import FILE_DATA_SUBMISSION, FILE_DATA_TEST, FILE_DATA_TRAIN
+from app.k.pubg.data import FILE_DATA_SUBMISSION, FILE_DATA_TEST, FILE_DATA_TRAIN
 
 """
-changed from https://www.kaggle.com/anycode/simple-nn-baseline
+changed from https://www.k.com/anycode/simple-nn-baseline
 
 to run this kernel, pip install ultimate first from your custom packages
 """
