@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from xgboost import XGBRegressor
 from xgboost import plot_importance
 
-from app.competitive_data_science_predict_future_sales import config
+from data.competitive_data_science_predict_future_sales import config
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 100)
